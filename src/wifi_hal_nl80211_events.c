@@ -334,7 +334,7 @@ static void nl80211_frame_tx_status_event(wifi_interface_info_t *interface, stru
     int sig_dbm = -100;
 #if defined(TCXB7_PORT) || defined(CMXB7_PORT) || defined(TCXB8_PORT) || defined(XB10_PORT) || \
     defined (TCHCBRV2_PORT) || defined(SCXER10_PORT) || defined(VNTXER5_PORT) || \
-    defined (TARGET_GEMINI7_2) || defined(SCXF10_PORT) || defined(RDKB_ONE_WIFI_PROD)
+    defined (TARGET_GEMINI7_2) || defined(SCXF10_PORT) || defined(XLE_PORT) || defined(RDKB_ONE_WIFI_PROD)
     int phy_rate = 60;
 #endif
 #ifdef CONFIG_GENERIC_MLO
